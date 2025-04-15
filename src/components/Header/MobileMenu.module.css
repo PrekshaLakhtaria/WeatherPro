@@ -1,0 +1,52 @@
+.mobileMenu {
+    display: none;
+    background-color: #1d4ed8;
+    color: white;
+    border-bottom: 1px solid #2563eb;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 767px) {
+    .mobileMenu {
+      display: block;
+    }
+  }
+  
+  .menuContainer {
+    padding: 1rem;
+  }
+  
+  .menuHeading {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  .unitButtonGroup {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .unitButton {
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+  }
+  
+  .unitButtonActive {
+    background-color: white;
+    color: #2563eb;
+  }
+  
+  .unitButtonInactive {
+    background-color: #2563eb;
+  }
+  
+  .divider {
+    border-top: 1px solid #2563eb;
+    padding-top: 0.5rem;
+  }
+  
+  .copyright {
+    font-size: 0.875rem;
+    color: #bfdbfe;
+  }

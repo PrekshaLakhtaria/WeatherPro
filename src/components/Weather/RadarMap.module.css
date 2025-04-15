@@ -1,0 +1,129 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .mapCard {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 1.25rem;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .headerIcon {
+    color: #3b82f6;
+    margin-right: 0.5rem;
+  }
+  
+  .title {
+    font-weight: 500;
+  }
+  
+  .mapContainer {
+    aspect-ratio: 16 / 9;
+    background-color: #f3f4f6;
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mapPlaceholder {
+    text-align: center;
+    color: #6b7280;
+  }
+  
+  .pinIcon {
+    margin: 0 auto 0.5rem;
+  }
+  
+  .placeholderText {
+    font-size: 0.875rem;
+  }
+  
+  .controlsContainer {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+  }
+  
+  .controlGroup {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .buttonPrimary {
+    padding: 0.25rem 0.75rem;
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 0.25rem;
+  }
+  
+  .buttonSecondary {
+    padding: 0.25rem 0.75rem;
+    background-color: #e5e7eb;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s;
+  }
+  
+  .buttonSecondary:hover {
+    background-color: #d1d5db;
+  }
+  
+  .precipitationCard {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 1.25rem;
+  }
+  
+  .precipitationTitle {
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+  }
+  
+  .precipitationChart {
+    height: 6rem;
+    background-color: #eff6ff;
+    border-radius: 0.25rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .gradientBar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4rem;
+    background: linear-gradient(to right, #dbeafe, #93c5fd, #dbeafe);
+    opacity: 0.7;
+  }
+  
+  .precipitationPeak {
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    width: 50%;
+    height: 3rem;
+    background-color: #60a5fa;
+    opacity: 0.4;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  
+  .timeLabels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: #6b7280;
+  }

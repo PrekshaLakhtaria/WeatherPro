@@ -1,0 +1,96 @@
+.container {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .headerIcon {
+    color: #3b82f6;
+    margin-right: 0.5rem;
+  }
+  
+  .title {
+    font-weight: 500;
+  }
+  
+  .contentContainer {
+    padding: 1rem;
+    overflow-x: auto;
+  }
+  
+  .contentContainerDetailed {
+    padding: 1.25rem;
+    overflow-x: auto;
+  }
+  
+  .hourlyList {
+    display: flex;
+    min-width: max-content;
+  }
+  
+  .hourlyListNormal {
+    gap: 1.5rem;
+  }
+  
+  .hourlyListDetailed {
+    gap: 2rem;
+  }
+  
+  .hourItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hourItemNormal {
+    gap: 0.5rem;
+  }
+  
+  .hourItemDetailed {
+    gap: 0.75rem;
+    width: 5rem;
+  }
+  
+  .hourTime {
+    font-size: 0.875rem;
+  }
+  
+  .hourTimeDetailed {
+    font-weight: 500;
+  }
+  
+  .hourTemp {
+    font-weight: 500;
+  }
+  
+  .hourTempDetailed {
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+  
+  .precipitationChance {
+    font-size: 0.75rem;
+    color: #3b82f6;
+  }
+  
+  .windInfo {
+    display: flex;
+    align-items: center;
+    color: #6b7280;
+  }
+  
+  .windIcon {
+    margin-right: 0.25rem;
+  }
+  
+  .windSpeed {
+    font-size: 0.875rem;
+  }

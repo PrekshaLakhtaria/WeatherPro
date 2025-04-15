@@ -1,0 +1,35 @@
+.searchForm {
+    position: relative;
+    display: flex;
+  }
+  
+  .searchInput {
+    width: 100%;
+    padding: 0.25rem 1rem;
+    border: none;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    color: #1f2937;
+    background-color: white;
+    font-size: 0.875rem;
+  }
+  
+  .searchInput:focus {
+    outline: none;
+  }
+  
+  .searchButton {
+    background-color: #1d4ed8;
+    padding: 0 0.75rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+  
+  .searchButton:hover {
+    background-color: #1e40af;
+  }

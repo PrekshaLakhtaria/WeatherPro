@@ -1,0 +1,90 @@
+.header {
+    background-color: #2563eb;
+    color: white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .headerContainer {
+    max-width: 72rem;
+    margin: 0 auto;
+  }
+  
+  .topBar {
+    padding: 0.75rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logoIcon {
+    color: white;
+    margin-right: 0.5rem;
+  }
+  
+  .logoText {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  
+  .searchBarDesktop {
+    width: 33.333%;
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .searchBarDesktop {
+      display: block;
+    }
+  }
+  
+  .unitToggle {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .unitToggle {
+      display: flex;
+      gap: 0.25rem;
+      font-size: 0.875rem;
+    }
+  }
+  
+  .unitButton {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+  }
+  
+  .unitButtonActive {
+    background-color: white;
+    color: #2563eb;
+  }
+  
+  .unitButtonInactive:hover {
+    background-color: #3b82f6;
+  }
+  
+  .mobileMenuButton {
+    display: block;
+    color: white;
+  }
+  
+  @media (min-width: 768px) {
+    .mobileMenuButton {
+      display: none;
+    }
+  }
+  
+  .searchBarMobile {
+    padding: 0 1rem 0.75rem 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .searchBarMobile {
+      display: none;
+    }
+  }

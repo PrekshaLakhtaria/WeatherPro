@@ -1,0 +1,44 @@
+.container {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .title {
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+  }
+  
+  .timesContainer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+  }
+  
+  .timeSection {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .labelContainer {
+    display: flex;
+    align-items: center;
+    color: #6b7280;
+    margin-bottom: 0.25rem;
+  }
+  
+  .sunriseIcon {
+    color: #fbbf24;
+    margin-right: 0.25rem;
+  }
+  
+  .sunsetIcon {
+    color: #f97316;
+    margin-right: 0.25rem;
+  }
+  
+  .timeValue {
+    font-weight: 500;
+  }
