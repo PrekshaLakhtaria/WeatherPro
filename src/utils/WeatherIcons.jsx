@@ -6,7 +6,7 @@ import {
   CloudSnow,
   Cloud,
 } from "lucide-react";
-import styles from "./weatherIcons.module.css";
+import styles from "./WeatherIcons.module.css";
 
 export const getWeatherIcon = (icon, size = 24) => {
   switch (icon) {
